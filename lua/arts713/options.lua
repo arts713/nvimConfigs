@@ -33,3 +33,9 @@ vim.opt.spelllang = "en"
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 
+-- vim.highlight.create("NormalFloat", { guibg = "None", guifg = "None" }, false)
+--
+-- ::highlight Pmenu ctermbg=gray guibg=gray:
+
+-- vim.api.nvim_set_h = {"PMenu", {"ctermbg", "gray", "guibg", "red"}}
+vim.api.nvim_set_hl(0, 'PMenu', {fg = 'white', bg='gray', ctermfg='yellow', ctermbg='DarkYellow'})
