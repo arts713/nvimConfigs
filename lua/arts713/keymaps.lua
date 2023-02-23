@@ -21,3 +21,4 @@ vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("x", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
+vim.keymap.set("n", "<leader>gg", ":LazyGit")
